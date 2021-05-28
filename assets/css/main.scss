@@ -1,0 +1,18 @@
+// Custom Bootstrap variable overrides go first
+
+// Then include the following
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+:root {
+    --primary: #36EEE0;
+    --secodary: #F652A0;
+    --secodary-light: #f5b2d2;
+    --secodary-dark: #8c0f4a;
+    --tertiary: #838bb5;
+    --bg-1: #2a2b4a;
+}
+
+body {
+    background-color:var(--bg-1) ;
+}

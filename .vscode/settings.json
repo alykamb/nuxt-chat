@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#410978",
+        "titleBar.activeBackground": "#5B0CA8",
+        "titleBar.activeForeground": "#FCFAFF"
+    },
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnPaste": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "typescriptreact",
+        "vue"
+    ],
+    "editor.formatOnSave": true,
+    "[vue]": {
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+}
